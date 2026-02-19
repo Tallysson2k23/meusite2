@@ -21,52 +21,51 @@ export default function Home() {
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-black/40"></div>
 
-        {/* CONTEÚDO */}
-        <div className="relative z-10 max-w-4xl mx-auto">
+{/* CONTEÚDO */}
+<div className="relative z-10 max-w-5xl mx-auto">
 
-{/* NOME DA EMPRESA EM DESTAQUE */}
-<h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold uppercase tracking-wide 
-               bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-600 
-               bg-clip-text text-transparent drop-shadow-lg">
-  PACOVA DESENVOLVIMENTO
-</h2>
+  {/* MARCA */}
+  <div className="mb-12">
+    <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+      Pacova Desenvolvimento
+    </h2>
+    <div className="w-16 h-[2px] bg-blue-600 mx-auto mt-4"></div>
+    <p className="text-zinc-400 mt-4 text-sm md:text-base">
+      Soluções inteligentes para negócios modernos.
+    </p>
+  </div>
 
-{/* SLOGAN */}
-<p className="text-zinc-300 mt-4 text-base md:text-lg">
-  Soluções inteligentes para negócios modernos.
-</p>
+  {/* TITULO PRINCIPAL */}
+  <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+    Transformando ideias em{" "}
+    <span className="text-blue-500">
+      Sistemas Digitais
+    </span>
+  </h1>
 
+  <p className="text-zinc-300 mt-6 text-base sm:text-lg md:text-xl max-w-2xl mx-auto">
+    Desenvolvedor especializado em sistemas web modernos,
+    criando soluções completas para empresas que querem crescer.
+  </p>
 
-          {/* TITULO PRINCIPAL */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-snug mt-8">
-            Transformando ideias em{" "}
-            <span className="text-blue-500">
-              Sistemas Digitais
-            </span>
-          </h1>
+  <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+    <a
+      href="#projetos"
+      className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition w-full sm:w-auto"
+    >
+      Ver Projetos
+    </a>
 
-          <p className="text-zinc-300 mt-6 text-base sm:text-lg md:text-xl max-w-2xl mx-auto">
-            Desenvolvedor especializado em sistemas web modernos,
-            criando soluções completas para empresas que querem crescer.
-          </p>
+    <a
+      href="#contato"
+      className="border border-zinc-600 px-6 py-3 rounded-lg hover:bg-zinc-800 transition w-full sm:w-auto"
+    >
+      Falar Comigo
+    </a>
+  </div>
 
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#projetos"
-              className="bg-blue-600 px-6 py-3 rounded-xl hover:bg-blue-700 transition w-full sm:w-auto"
-            >
-              Ver Projetos
-            </a>
+</div>
 
-            <a
-              href="#contato"
-              className="border border-zinc-600 px-6 py-3 rounded-xl hover:bg-zinc-800 transition w-full sm:w-auto"
-            >
-              Falar Comigo
-            </a>
-          </div>
-
-        </div>
       </section>
 
       {/* TODO O RESTO DO SEU CÓDIGO PERMANECE IGUAL */}
@@ -161,23 +160,22 @@ export default function Home() {
         </div>
       </section>
       
-      {/* SOBRE */}
+{/* SOBRE */}
       <section className="py-20 px-6 max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-          Sobre Mim
+          Sobre a Pacova Desenvolvimento
         </h2>
 
         <p className="text-zinc-400 text-center max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
-          Bacharel em Desenvolvimento, especializado na criação de sistemas
-          web personalizados para empresas que buscam crescimento,
-          organização e eficiência operacional.
+          A Pacova Desenvolvimento é especializada na criação de sistemas web e locais
+          personalizados para empresas que buscam eficiência, organização e crescimento.
 
-          Desenvolvo soluções completas para automação de processos,
-          controle de vendas, estoque e gestão financeira, com foco em
-          performance, escalabilidade e experiência do usuário.
+          Atuamos no desenvolvimento de soluções para controle de vendas,
+          estoque, gestão financeira e automação de processos,
+          sempre priorizando performance, segurança e escalabilidade.
 
-          Mais do que programar, entrego ferramentas estratégicas que
-          ajudam negócios a reduzir erros, otimizar tempo e aumentar resultados.
+          Nosso compromisso é transformar necessidades empresariais
+          em soluções digitais estratégicas que geram resultados reais.
         </p>
       </section>
 
