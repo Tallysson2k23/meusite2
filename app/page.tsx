@@ -1,3 +1,5 @@
+import { FaInstagram } from "react-icons/fa";
+
 export default function Home() {
   return (
     <main className="bg-zinc-950 text-white overflow-x-hidden">
@@ -161,23 +163,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTATO */}
-      <section id="contato" className="py-20 px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8">
-          Vamos criar algo incrível juntos?
-        </h2>
+{/* CONTATO */}
+<section id="contato" className="py-20 px-6 text-center">
+  <h2 className="text-3xl md:text-4xl font-bold mb-8">
+    Vamos criar algo incrível juntos?
+  </h2>
 
-        <p className="text-zinc-400 mb-8 text-sm md:text-base">
-          Entre em contato e vamos conversar sobre seu projeto.
-        </p>
+  <p className="text-zinc-400 mb-10 text-sm md:text-base">
+    Entre em contato e acompanhe meu trabalho nas redes sociais.
+  </p>
 
-        <a
-          href="https://wa.me/5581993779019"
-          className="bg-green-600 px-8 py-4 rounded-xl text-base md:text-lg hover:bg-green-700 transition inline-block"
-        >
-          Falar no WhatsApp
-        </a>
-      </section>
+  <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
+
+    {/* WHATSAPP */}
+    <a
+      href="https://wa.me/5581993779019"
+      target="_blank"
+      className="bg-green-600 px-8 py-4 rounded-xl text-base md:text-lg hover:bg-green-700 transition inline-block"
+    >
+      Falar no WhatsApp
+    </a>
+
+    {/* INSTAGRAM */}
+    <a
+      href="https://www.instagram.com/luiz_c137/"
+      target="_blank"
+      className="flex items-center gap-3 border border-pink-500 text-pink-500 px-8 py-4 rounded-xl hover:bg-pink-500 hover:text-white transition"
+    >
+      <FaInstagram size={22} />
+      Instagram
+    </a>
+
+  </div>
+</section>
+
 
     </main>
   );
