@@ -55,26 +55,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SOBRE */}
-      <section className="py-20 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-          Sobre Mim
-        </h2>
-
-        <p className="text-zinc-400 text-center max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
-          Bacharel em Desenvolvimento, especializado na criação de sistemas
-          web personalizados para empresas que buscam crescimento,
-          organização e eficiência operacional.
-
-          Desenvolvo soluções completas para automação de processos,
-          controle de vendas, estoque e gestão financeira, com foco em
-          performance, escalabilidade e experiência do usuário.
-
-          Mais do que programar, entrego ferramentas estratégicas que
-          ajudam negócios a reduzir erros, otimizar tempo e aumentar resultados.
-        </p>
-      </section>
-
       {/* PROJETOS */}
       <section id="projetos" className="py-20 px-6 bg-zinc-900">
         <div className="max-w-7xl mx-auto">
@@ -162,6 +142,27 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      {/* SOBRE */}
+      <section className="py-20 px-6 max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
+          Sobre Mim
+        </h2>
+
+        <p className="text-zinc-400 text-center max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
+          Bacharel em Desenvolvimento, especializado na criação de sistemas
+          web personalizados para empresas que buscam crescimento,
+          organização e eficiência operacional.
+
+          Desenvolvo soluções completas para automação de processos,
+          controle de vendas, estoque e gestão financeira, com foco em
+          performance, escalabilidade e experiência do usuário.
+
+          Mais do que programar, entrego ferramentas estratégicas que
+          ajudam negócios a reduzir erros, otimizar tempo e aumentar resultados.
+        </p>
+      </section>
+
 
 {/* CONTATO */}
 <section id="contato" className="py-20 px-6 text-center">
