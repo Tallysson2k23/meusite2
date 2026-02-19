@@ -24,7 +24,21 @@ export default function Home() {
         {/* CONTEÚDO */}
         <div className="relative z-10 max-w-4xl mx-auto">
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-snug">
+{/* NOME DA EMPRESA EM DESTAQUE */}
+<h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold uppercase tracking-wide 
+               bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-600 
+               bg-clip-text text-transparent drop-shadow-lg">
+  PACOVA DESENVOLVIMENTO
+</h2>
+
+{/* SLOGAN */}
+<p className="text-zinc-300 mt-4 text-base md:text-lg">
+  Soluções inteligentes para negócios modernos.
+</p>
+
+
+          {/* TITULO PRINCIPAL */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-snug mt-8">
             Transformando ideias em{" "}
             <span className="text-blue-500">
               Sistemas Digitais
@@ -54,6 +68,10 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* TODO O RESTO DO SEU CÓDIGO PERMANECE IGUAL */}
+
+
 
       {/* PROJETOS */}
       <section id="projetos" className="py-20 px-6 bg-zinc-900">
