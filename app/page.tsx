@@ -3,7 +3,7 @@ export default function Home() {
     <main className="bg-zinc-950 text-white overflow-x-hidden">
 
       {/* HERO */}
-      <section className="relative min-h-screen flex items-center justify-center text-center px-6">
+      <section className="relative min-h-screen flex items-start justify-center text-center px-6 pt-28 md:pt-40">
 
         {/* VIDEO BACKGROUND */}
         <video
@@ -11,18 +11,18 @@ export default function Home() {
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-20"
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
         >
           <source src="/matrix.mp4" type="video/mp4" />
         </video>
 
-        {/* OVERLAY ESCURO */}
-        <div className="absolute inset-0 bg-black/1"></div>
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-black/40"></div>
 
         {/* CONTEÚDO */}
         <div className="relative z-10 max-w-4xl mx-auto">
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-snug">
             Transformando ideias em{" "}
             <span className="text-blue-500">
               Sistemas Digitais
@@ -75,22 +75,19 @@ export default function Home() {
 
       {/* PROJETOS */}
       <section id="projetos" className="py-20 px-6 bg-zinc-900">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-14 text-center">
             Projetos Desenvolvidos
           </h2>
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
             {/* FLORV3 */}
             <div className="bg-zinc-800 rounded-2xl overflow-hidden hover:scale-105 transition shadow-xl">
-              <img
-                src="/florv3.png"
-                className="w-full h-56 md:h-64 object-cover"
-              />
-              <div className="p-6 md:p-8">
-                <h3 className="text-xl md:text-2xl font-bold">FlorV3</h3>
-                <p className="text-zinc-400 mt-4 text-sm md:text-base">
+              <img src="/florv3.png" className="w-full h-56 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold">FlorV3</h3>
+                <p className="text-zinc-400 mt-4 text-sm">
                   Sistema completo para gestão de floricultura com controle
                   de vendas, estoque, relatórios e painel administrativo.
                 </p>
@@ -102,18 +99,60 @@ export default function Home() {
 
             {/* ESPETINHOV2 */}
             <div className="bg-zinc-800 rounded-2xl overflow-hidden hover:scale-105 transition shadow-xl">
-              <img
-                src="/espetinhov2.png"
-                className="w-full h-56 md:h-64 object-cover"
-              />
-              <div className="p-6 md:p-8">
-                <h3 className="text-xl md:text-2xl font-bold">EspetinhoV2</h3>
-                <p className="text-zinc-400 mt-4 text-sm md:text-base">
+              <img src="/espetinhov2.png" className="w-full h-56 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold">EspetinhoV2</h3>
+                <p className="text-zinc-400 mt-4 text-sm">
                   Sistema de pedidos e controle financeiro com painel
                   administrativo e acompanhamento em tempo real.
                 </p>
                 <p className="text-blue-500 mt-4 text-sm">
                   Next.js • Prisma • MySQL
+                </p>
+              </div>
+            </div>
+
+            {/* RESERVACAR */}
+            <div className="bg-zinc-800 rounded-2xl overflow-hidden hover:scale-105 transition shadow-xl">
+              <img src="/reservaCar.png" className="w-full h-56 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold">ReservaCar</h3>
+                <p className="text-zinc-400 mt-4 text-sm">
+                  Sistema de reserva e gestão de veículos com controle de disponibilidade,
+                  cadastro de clientes e contrele de quem usa os veículos.
+                </p>
+                <p className="text-blue-500 mt-4 text-sm">
+                  React • Node.js • MySQL
+                </p>
+              </div>
+            </div>
+
+            {/* PORTALRPC */}
+            <div className="bg-zinc-800 rounded-2xl overflow-hidden hover:scale-105 transition shadow-xl">
+              <img src="/portalRPC.png" className="w-full h-56 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold">PortalRPC</h3>
+                <p className="text-zinc-400 mt-4 text-sm">
+                  Portal corporativo para gerenciamento interno,
+                  controle de usuários e painel administrativo estratégico. Foco em reuniar todas as ferramentas, treinamentos, avissos, arquivos usados internamente pela empresa.
+                </p>
+                <p className="text-blue-500 mt-4 text-sm">
+                  Next.js • Prisma • PostgreSQL
+                </p>
+              </div>
+            </div>
+
+            {/* FINANCEIROPRO */}
+            <div className="bg-zinc-800 rounded-2xl overflow-hidden hover:scale-105 transition shadow-xl">
+              <img src="/financeiroPro.png" className="w-full h-56 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold">FinanceiroPro</h3>
+                <p className="text-zinc-400 mt-4 text-sm">
+                  Sistema avançado de controle financeiro empresarial
+                  com relatórios detalhados, fluxo de caixa e análise de desempenho e graficos.
+                </p>
+                <p className="text-blue-500 mt-4 text-sm">
+                  Next.js • Node.js • PostgreSQL
                 </p>
               </div>
             </div>
