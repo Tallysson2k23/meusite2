@@ -17,7 +17,7 @@ const projects = [
     stack: "React · Node.js · PostgreSQL",
   },
   {
-    name: "EspetinhoV2",
+    name: "EspetinhoV5",
     category: "PEDIDOS & OPERAÇÃO",
     image: "/espetinhov21.png",
     description:
