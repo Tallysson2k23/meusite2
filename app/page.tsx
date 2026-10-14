@@ -81,7 +81,7 @@ export default function Home() {
         <div className="hero-visual">
           <div className="visual-top">
             <span>● ● ●</span>
-            <span>pacova / workspace</span>
+            <span>pacovan / workspace</span>
             <span>●</span>
           </div>
           <div className="visual-body">
@@ -189,7 +189,7 @@ export default function Home() {
         </div>
         <div>
           <p>
-            A Pacova Desenvolvimento cria sistemas web e locais personalizados
+            A Pacovan Desenvolvimento cria sistemas web e locais personalizados
             para empresas que buscam eficiência, organização e crescimento.
           </p>
           <p>

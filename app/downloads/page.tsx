@@ -5,7 +5,7 @@ import { FaArrowDown, FaFileAlt, FaCheckCircle } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Downloads",
-  description: "Arquivos JSON disponibilizados pela Pacova Desenvolvimento para download.",
+  description: "Arquivos JSON disponibilizados pela Pacovan Desenvolvimento para download.",
 };
 
 // A lista é gerada na compilação. Adicione os arquivos e publique novamente.
@@ -37,10 +37,10 @@ export default async function Downloads() {
   return (
     <div className="container downloads-page">
       <div className="download-heading">
-        <p className="eyebrow">BIBLIOTECA PACOVA</p>
+        <p className="eyebrow">BIBLIOTECA PACOVAN</p>
         <h1>Arquivos disponíveis.<br /><span>Prontos para baixar.</span></h1>
         <p className="intro">
-          Encontre os arquivos JSON compartilhados pela Pacova.
+          Encontre os arquivos JSON compartilhados pela Pacovan.
           Escolha o arquivo que precisa e baixe diretamente para o seu dispositivo.
         </p>
         <div className="download-benefits">

@@ -4,8 +4,8 @@ import Navigation from "./navigation";
 import "./globals.css";
 export const metadata: Metadata = {
   title: {
-    default: "Pacova Desenvolvimento | Soluções digitais sob medida",
-    template: "%s | Pacova Desenvolvimento",
+    default: "Pacovan Desenvolvimento | Soluções digitais sob medida",
+    template: "%s | Pacovan Desenvolvimento",
   },
   description:
     "Sistemas web e locais para simplificar a gestão do seu negócio. Conheça os projetos da Pacova e os arquivos disponíveis para download.",
@@ -24,11 +24,11 @@ export default function RootLayout({
             <Link
               href="/"
               className="brand"
-              aria-label="Pacova Desenvolvimento, início"
+              aria-label="Pacovan Desenvolvimento, início"
             >
               <span className="brand-mark">p.</span>
               <span>
-                pacova<span className="brand-caption">DESENVOLVIMENTO</span>
+                pacovan<span className="brand-caption">DESENVOLVIMENTO</span>
               </span>
             </Link>
             <Navigation />
@@ -37,9 +37,9 @@ export default function RootLayout({
         <main id="conteudo">{children}</main>
         <footer className="container footer">
           <Link className="footer-brand" href="/">
-            pacova<span>.</span>
+            pacovan<span>.</span>
           </Link>
-          <p>© {new Date().getFullYear()} Pacova Desenvolvimento</p>
+          <p>© {new Date().getFullYear()} Pacovan Desenvolvimento</p>
           <a href="/#inicio">Voltar ao início ↑</a>
         </footer>
       </body>
