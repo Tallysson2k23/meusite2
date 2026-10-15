@@ -172,7 +172,7 @@ export default function Home() {
         <div>
           <p className="eyebrow">RECURSOS PARA O SEU DIA A DIA</p>
           <h2>Seus arquivos à mão. Sem complicação.</h2>
-          <p>Arquivos JSON disponíveis para download direto.</p>
+          <p>Arquivos JSON e aplicativos APK disponíveis para download direto.</p>
         </div>
         <Link href="/downloads" className="button primary">
           Ver downloads <FaArrowRight />
